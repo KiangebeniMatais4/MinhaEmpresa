@@ -1,4 +1,3 @@
-
 import React from 'react';
 import GrowthChart from '../components/GrowthChart';
 
@@ -112,10 +111,10 @@ const Home: React.FC = () => {
               <p className="text-4xl font-extrabold text-[#002B5B]">45+</p>
               <p className="text-sm text-gray-500 mt-2 font-medium">Clientes Iniciais</p>
             </div>
-            <div className="bg-[#002B5B] p-8 rounded-3xl text-white shadow-xl transition-all hover:scale-105">
-              <p className="text-[#7BBCEB] text-xs font-bold uppercase tracking-wider mb-2">Hoje (2025)</p>
-              <p className="text-4xl font-extrabold">820+</p>
-              <p className="text-sm text-blue-100 mt-2 font-medium">Sistemas Ativos</p>
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 transition-all hover:scale-105">
+              <p className="text-gray-400 text-xs font-bold uppercase tracking-wider mb-2">Hoje ({new Date().getFullYear()})</p>
+              <p className="text-4xl font-extrabold text-[#002B5B]">820+</p>
+              <p className="text-sm text-gray-500 mt-2 font-medium">Sistemas Ativos</p>
             </div>
             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 transition-all hover:scale-105">
               <p className="text-gray-400 text-xs font-bold uppercase tracking-wider mb-2">Simulação (Final de 2025)</p>
